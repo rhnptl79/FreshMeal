@@ -1,0 +1,73 @@
+.list-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-table td,
+.list-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* .list-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+.list-table tr:hover {
+  background-color: #ddd;
+}
+
+.list-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+#cart-table-id th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: brown;
+  color: white;
+}
+.total-cart-row {
+  background-color: goldenrod;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+.button-checkout {
+  background-color: #4caf50; /* Green */
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#order-table-id th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: lightcoral;
+  color: white;
+}
+#customer-table-id th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #602563;
+  color: white;
+}
+#sales-table-id th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6c875f;
+  color: white;
+}
